@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nafisa Cosmetic</title>
+    <link rel="shortcut icon" href="cosmeticImage/logo.jpg" />
+    <!-- Bootstrap 4.5 CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/cosmetic.css" />
+    <!-- Google Fonts -->
+  
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/roboto" type="text/css"/>
+
+
+  </head>
+</head>
+<body>
+  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="cosmeticImage/white_logo1.png" alt="" class="w-100">
+              </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="tel:98613269826">Contact Us</a>
+              </li>
+           
+          </ul>
+        </div>
+        </div>
+    </nav>
+
+    <!-- image slider section-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="5000">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="cosmeticImage/4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <div class="container">
+              <div class=" row justify-content-left text-center">
+                <div class="col-4 bg-custom d-none d-sm-block py-3 px-2 pr-0">
+                  <h1>Time to be Beautiful</h1>
+                  <div
+                    class="border-top border-primary w-50 mx-auto my-3"
+                  ></div>
+                  <button type="button" class="btn btn-danger btn-lg mr-2">
+                    Get Started
+                  </button>
+                </div>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="cosmeticImage/2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="cosmeticImage/1.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <br><br>
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-sm-6">
+          <h1 style="color: black; font-weight:400">What's New?</h1>
+          <div class="top-border border-primary w-50 mx-auto my-6"></div>
+          <h1 style="font-size: 1.2rem; padding-top:8px">These are the newest arrivals</h1>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4 my-4">
+          <div class="card" style="width: 18rem;">
+            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sonata Lipstick</h5>
+              <p class="card-text">Sonata Lipstick are one of the most used lipstick in the world. </p>
+              <a href="#" class="btn btn-danger">Read More</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-4 my-4">
+          <div class="card" style="width: 18rem;">
+            <img src="https://rukminim1.flixcart.com/image/416/416/jgo0ccw0/baby-care-combo/q/c/p/baby-complete-collection-combo-1-blue-kit-johnson-baby-original-imaf4ttgshsnzsnh.jpeg?q=70" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Johnson Baby Combo Pack</h5>
+              <p style="font-size:0.9rem;"  class="card-text">This combo pack provides everything you need for  baby care. </p>
+              <a href="#" class="btn btn-danger">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 my-4">
+          <div class="card" style="width: 18rem;">
+            <img src="data:image/jpeg;base64,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" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Himalaya Facewash</h5>
+              <p class="card-text">Himalaya facewash brings glow to your dull skin.  </p>
+              <a href="#" class="btn btn-danger">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+    
+
+      </a>
+    </div>
+    <a class="navbar bg-primary sticky-top-emoji" href="#emoji" role="button" data-toggle="collapse">
+
+    </a>
+    <!-- Start Fixed Background IMG -->
+      <div class="fixed-background">
+        <div class="row justify-content-center text-center">
+          <div class="col-12">
+            <h1 style="color: rgb(196, 118, 131);">We have a gift for you 😊</h1>
+            <h3>See what's on the other side</h3>
+           
+            <button type="button" class="btn btn-primary btn-lg mr-2" data-toggle="modal" data-target="#modal1">
+             Gift1
+            </button>
+            <button type="button" class="btn btn-danger btn-lg ml-2" data-toggle="modal" data-target="#modal2">
+              Gift2
+            </button>
+          </div>
+        </div>
+        <div class="fixed-wrap">
+          <div class="fixed"  ></div>
+        </div>
+     </div>
+       
+     
+      <!-- gif image-->
+
+
+      <div class="modal fade" id="modal1" >
+        <div class="modal-dialog">         
+            <img src="https://media.giphy.com/media/2tSMT59fK8t8xiRbD6/giphy.gif" class='w-100' alt="">
+        </div>
+      </div>
+      <div class="modal fade" id="modal2" >
+        <div class="modal-dialog">         
+            <img src="https://media.giphy.com/media/RLG38eECvpcndKK4IH/giphy.gif" class='w-100' alt="">
+        </div>
+      </div>
+      
+      <a class="navbar bg-primary sticky-bottom-emoji" href="#emoji" role="button" data-toggle="collapse">
+
+      </a>
+
+
+   
+
+      <div id="emoji" class="collapse">
+        <div class="container">
+          <div class="row ">
+            <div class="col-md-3 col-sm-6"><img src="https://media.giphy.com/media/50hLtD4M3bw0E/giphy.gif" alt="" class="w-100"></div>
+            <div class="col-md-3 col-sm-6"><img src="https://media.giphy.com/media/2tSMT59fK8t8xiRbD6/giphy.gif" alt=""class="w-100"></div>
+            <div class="col-md-3 col-sm-6"><img src="https://media.giphy.com/media/RLG38eECvpcndKK4IH/giphy.gif" alt=""class="w-100"></div>
+            <div class="col-md-3 col-sm-6"><img src="https://media.giphy.com/media/3o7P4CHF6pbiH1Myyc/giphy.gif"  alt=""class="w-100" ></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container my-5">
+        <div class="row py-4 ">
+          <div class="col-lg-4  my-lg-auto">
+            <h1 class="text-dark font-weight-bold mb-3">We've been expecting you.</h1>
+            <p style="font-size: 1.2rem;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita sapiente minima esse in, recusandae consequuntur quod bland</p>
+            <button type="button" class="btn btn-danger btn-lg mr-2">
+              Get Started
+            </button>
+          </div>
+          <div class="col-lg-8">
+            <img src="https://media.istockphoto.com/photos/real-men-get-makeovers-picture-id609056026?k=6&m=609056026&s=612x612&w=0&h=6WffqZaVbfxsHzojqAdC5vUlXaSVcunwHII_WjmQek0=" alt="" class="w-100">
+          
+          </div>
+        </div>
+      </div>
+
+      <div class="jumbotron py-3 mb-0">
+        <div class="container ">
+          <div class="row">
+            <div class="col-lg-7 col-xl-9">
+              <h3>Looking for quality products and our customer services?</h3>
+            </div>
+          
+          <div class="col-lg-5 col-xl-3">
+            <a href="cosmetic.html" class="btn btn-danger">Contact Us Today</a>
+          </div>
+        </div>
+        </div>
+     </div>
+
+     <footer>
+       <div class="row justify-content-center text-center">
+         <div class="col-sm-12">
+          <img src="cosmeticImage/black_logo1.png" alt="" >
+          <p class="py-0 my-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, aliquid. Alias esse error tempora et illo voluptatu. Repellat recusandae, suscipit consequatur iste delectus accusantium vitae sint tempora dicta? Deleniti!</p>
+          <div class="icons">
+            <a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook-f" id=icon></i></a>
+            <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter" id="icon"></i></a>
+            <a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram" id="icon"></i></a>
+            <a href="http://www.youtube.com" target="_blank"><i class="fab fa-youtube" id="icon"></i></a>
+      
+        </div>
+       </div>
+   
+     </footer>
+
+     <div class="socket text-dark text-center py-3">
+       <p>&copy;<a href="cosmetic.html" style="color: white;">NafisaCosmetic.com</a></p>
+     </div>
+
+
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap 4.5 JS -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Popper JS -->
+    <script src="js/popper.min.js"></script>
+    <!-- Font Awesome -->
+    <script src="js/all.min.js"></script>
+    
+</body>
+</html>
