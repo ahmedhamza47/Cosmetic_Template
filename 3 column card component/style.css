@@ -1,0 +1,44 @@
+h1 {
+  font-family: Lexend Deca;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  letter-spacing: 0px !important;
+  font-size: 0.8cm;
+}
+p {
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+#col1,
+#col2,
+#col3 {
+  padding-left: 2.5cm;
+  padding-right: 2.5cm;
+}
+
+#col1 {
+  background-color: hsl(31, 77%, 52%);
+}
+
+#col2 {
+  background-color: hsl(184, 100%, 22%);
+}
+#col3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+img {
+  height: 1.2cm;
+  width: 1.2cm;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+
+button {
+  margin-bottom: 1.5cm;
+  border-radius: 2rem !important;
+  font-size: 0.9rem !important;
+  font-family: Lexend Deca;
+  letter-spacing: 1px;
+}
