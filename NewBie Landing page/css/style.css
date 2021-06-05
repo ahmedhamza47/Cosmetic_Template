@@ -1,0 +1,220 @@
+/*-- Body Reset --*/
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  color: #616971;
+}
+
+/*============= TOP BAR HEADER =============*/
+.top-bar {
+  background-color: #7aaec4;
+  height: 2.8rem;
+  padding: 0.5em 0;
+}
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+/*============= NAVIGATION =============*/
+.navbar-brand img {
+  height: 1cm;
+  width: 3cm;
+}
+.navbar {
+  font-size: 1.15rem;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 0.5rem 0.5rem rgb(0, 0, 0, 0.1);
+}
+.nav-item {
+  padding-left: 0.5cm;
+}
+.nav-link {
+  color: rgb(133, 125, 125) !important;
+}
+.nav-link.active,
+.nav-link:hover {
+  color: #4981b3 !important;
+  z-index: 1;
+}
+
+/*============= CAROUSEL =============*/
+.carousel.slide {
+  box-shadow: 0 0.5rem 0.5rem rgb(0, 0, 0, 0.1);
+}
+.carousel.inner {
+  max-height: 28rem !important;
+}
+/*
+.carousel-item.active img {
+  height: 400px;
+  min-height: 400px;
+  line-height: 400px;
+}*/
+/*---Change Carousel Transition Speed --*/
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  transition: transform 1.5s ease;
+}
+/*-- Carousel Content --*/
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.bg-custom {
+  background-color: rgb(0, 0, 0, 0.3);
+  color: white;
+  border-radius: 0.6rem;
+}
+
+.carousel-caption h1 {
+  font-size: 2rem;
+  box-shadow: 0.1 0.1rem 0.5rem rgb(0, 0, 0, 0.1);
+}
+.carousel-caption h3 {
+  font-size: 1.5rem;
+  box-shadow: 0.1 0.1rem 0.5rem rgb(0, 0, 0, 0.1);
+}
+.border-primary {
+  border-top: 0.2rem solid #4981b3;
+}
+
+.btn-lg {
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  border-width: medium;
+  padding: 0.2cm;
+}
+.btn-danger,
+.btn-danger:hover {
+  background-color: #ac2615;
+  border: 0.1rem solid #ac2615;
+}
+.btn-primary,
+.btn-primary:hover {
+  background-color: rgb(14, 95, 122) !important;
+  border: 0.1rem solid rgb(14, 95, 122) !important;
+}
+.fixed-background {
+  overflow: hidden; /*-- Correction for iOS --*/
+}
+
+.card-body.btn-primary {
+  background-color: white !important;
+  font-size: small !important;
+}
+
+/*===== FIXED BACKGROUND IMG =====*/
+.fixed-background {
+  padding: 7rem 0rem;
+}
+
+.fixed {
+  background-image: url("../img/matrix.jpg");
+  position: fixed;
+}
+
+/*-- Emoji Navbar --*/
+.sticky-top-emoji {
+  background-image: linear-gradient(to right, #4981b3, #ac2615);
+}
+.fa-plug {
+  margin: auto;
+  font-size: 1.2rem;
+  color: white;
+}
+/*============= FOOTER =============*/
+footer {
+  background-color: rgb(54, 50, 50);
+  margin-top: 0;
+  padding-top: 0rem;
+}
+footer p {
+  padding-top: 0.8cm;
+  padding-left: 4cm;
+  padding-right: 4cm;
+  font-size: 1.2rem;
+}
+.icons {
+  font-size: 2.5rem;
+}
+#icon {
+  padding-left: 10px;
+  color: white;
+}
+#icons:hover {
+  color: #4981b3 !important;
+}
+/*============= SOCKET =============*/
+.socket {
+  background-color: black;
+  border-top: 2px solid #4981b3;
+}
+/*============= MEDIA QUERIES =============*/
+
+/* Devices under 1199px (xl) */
+@media (max-width: 1199.98px) {
+}
+/* Devices under 768px (md) */
+@media (max-width: 767.98px) {
+}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
+
+/*-- Bootstrap Mobile Gutter Fix --*/
+.row,
+.container-fluid {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+/*-- Fixed Background Image --*/
+.fixed-background {
+  position: relative;
+  width: 100%;
+  z-index: 1000 !important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -999 !important;
+}
+.fixed {
+  z-index: -999 !important;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  will-change: transform;
+}
