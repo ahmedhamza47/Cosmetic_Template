@@ -1,0 +1,46 @@
+body {
+  background-color: hsl(233, 47%, 7%) !important;
+  color: white !important;
+  padding-top: 3cm;
+  padding-bottom: 3cm;
+}
+container {
+  display: table !important;
+  width: 100% !important;
+  height: 100%;
+}
+.row {
+  display: flex; /* equal height of the children */
+}
+
+.col {
+  flex: 1; /* additionally, equal width */
+  padding: 2cm;
+  border: solid;
+}
+
+#text {
+  padding: 2cm;
+  background-color: hsl(244, 38%, 16%);
+  height: 12cm;
+}
+img {
+  height: 12cm;
+}
+span {
+  color: hsl(277, 64%, 61%);
+}
+#image {
+  color: hsl(277, 64%, 61%) !important;
+}
+
+@media (max-width: 700px) {
+  #text {
+    height: 15cm !important;
+  }
+}
+@media (max-width: 400px) {
+  #text {
+    height: 22cm !important;
+  }
+}
