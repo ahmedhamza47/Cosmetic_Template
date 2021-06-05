@@ -1,0 +1,136 @@
+body {
+  overflow-x: hidden;
+}
+.top-section {
+  background-image: url("/images/bg-hero-desktop.svg");
+  background-color: hsl(193, 100%, 96%);
+}
+
+.navbar-brand img {
+  width: 4cm;
+}
+.nav-item button {
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: Poppins !important;
+  font-weight: 600;
+}
+.nav-item button,
+.nav-item button:hover {
+  background-color: white !important;
+}
+
+#pink-button1 {
+  background-color: hsl(322, 100%, 66%) !important;
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  font-family: Poppins !important;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.2px;
+}
+
+#bold-par {
+  font-family: Open Sans;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  font-size: 0.8rem;
+}
+#shadow-container {
+  margin-top: 1cm;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1cm;
+  box-shadow: 0 0 0.6rem 0.1rem rgb(0, 0, 0, 0.1) !important;
+  height: auto;
+  width: 25cm;
+}
+#shadow-container img {
+  height: 7cm;
+}
+
+#text-col1 {
+  padding-left: 2cm;
+  padding-right: 2cm;
+  padding-top: 0.5cm;
+}
+p {
+  font-family: Open Sans;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+}
+#container3 {
+  box-shadow: 0 0 0.6rem 0.1rem rgb(0, 0, 0, 0.1) !important;
+  width: 15cm;
+  background-color: white;
+  margin-bottom: -2cm !important;
+  position: relative;
+  border-radius: 5%;
+}
+#pink-button2 {
+  background-color: hsl(322, 100%, 66%) !important;
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  font-family: Poppins !important;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.2px;
+}
+
+footer {
+  background-color: hsl(192, 100%, 9%);
+  z-index: -1;
+}
+
+#logo {
+  filter: invert(100%);
+}
+footer p {
+  color: white;
+  font-size: 0.9rem;
+}
+#footer-par {
+  margin-left: -1cm !important;
+  padding-left: 0cm;
+}
+
+.icons {
+  color: white;
+  font-size: 2.5rem;
+}
+#icon {
+  color: white !important;
+}
+
+#col2,
+#col3 {
+  padding-left: 2.5cm;
+}
+
+@media screen and (max-width: 700px) and (min-width: 375px) {
+  h1 {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 1.5rem !important;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+  #shadow-container {
+    margin: auto !important;
+    width: auto !important;
+  }
+  #container3 {
+    width: 8cm !important;
+  }
+  #logo,
+  #col2,
+  #col3 {
+    padding-left: 0.5cm;
+  }
+}
