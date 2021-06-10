@@ -1,0 +1,99 @@
+body {
+  overflow-x: hidden;
+  font-family: Bai Jamjuree;
+}
+h1,
+h3 {
+  margin: auto;
+  font-weight: 600;
+  color: hsl(210, 10%, 33%);
+  text-decoration: none;
+}
+p {
+  font-weight: 400;
+  color: hsl(201, 11%, 66%);
+  text-decoration: none;
+  font-size: 18px;
+  margin: auto;
+}
+.top-section p,
+#mid-par1 {
+  margin-left: 5cm;
+  margin-right: 5cm;
+}
+
+.top-section {
+  background-image: url("/images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+}
+
+.top-section img {
+  height: 2cm;
+  margin-bottom: 1cm;
+}
+
+button {
+  border-radius: 25px !important;
+  padding: 5px !important;
+  width: 180px;
+  border: hidden;
+  margin-top: 0.5cm;
+  margin-bottom: 2cm;
+  font-size: 18px;
+}
+btn1 {
+  box-shadow: 0px 2px 4px hsl(171, 66%, 44%);
+}
+
+btn2 {
+  box-shadow: 0px 2px 4px hsl(233, 100%, 69%);
+}
+
+.com-text {
+  margin: auto;
+  padding-right: 5cm;
+}
+#computer-image {
+  width: 100%;
+  margin-left: -2cm;
+}
+.text-icon img {
+  height: 2cm !important;
+}
+
+@media (max-width: 1000px) {
+  p {
+    margin: auto !important;
+  }
+  #computer-image {
+    width: 80%;
+    margin-left: 0cm !important;
+  }
+  .com-text {
+    margin: auto;
+    padding-right: 0.5cm;
+    text-align: center;
+  }
+  .text-icon img {
+    height: 1.5cm !important;
+  }
+}
+#img-device {
+  width: 80%;
+}
+footer {
+  background-color: hsl(207, 17%, 90%);
+}
+footer .main-logo {
+  height: 2cm;
+}
+@media (max-width: 375px) {
+  #top-section-btn1 {
+    margin-top: 1cm;
+    margin-bottom: 0.5cm;
+  }
+  #top-section-btn2 {
+    margin-top: 0.2cm;
+    margin-bottom: 1cm;
+  }
+}
