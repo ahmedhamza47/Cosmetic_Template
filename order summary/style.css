@@ -1,0 +1,61 @@
+body{
+    font-family: 'Red Hat Display';
+    background-image: url(/images/pattern-background-desktop.svg);
+}
+.container{
+    display: block;
+    margin-top: 1.5cm;
+    height: 5.5cm;
+}
+.img-section img{
+    width: 100%;
+    border-top-left-radius:20px ; 
+    border-top-right-radius:20px ; 
+}
+
+
+h2,h5{
+    font-weight: 900;
+}
+h5{
+    font-size: 1.1em;
+}
+p{
+    font-weight: 500;
+    font-size: 16px;
+}
+.text-section{
+    background-color: white;
+    border-bottom-left-radius:20px ; 
+    border-bottom-right-radius:20px ; 
+
+}
+.plan{
+    right: 8%;
+}
+.btn{
+    border-radius: 12px;
+   text-align: center;
+   position: relative;
+   left: 10%;
+   width: 80%;
+ 
+}
+
+.plan-row{
+    display: flex;
+    justify-content: space-between;
+    background-color:hsl(225, 100%, 98%) ;
+    border-radius: 20px;
+  
+
+}
+.annual-plan{
+    position: relative;
+    right: 5%;
+    display: inline-block
+    
+}
+.plan-row .col{
+    margin-top: 4%;;
+}
